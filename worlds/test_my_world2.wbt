@@ -1,0 +1,20 @@
+#VRML_SIM R2018a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.9998900395337181 -0.010950989296194001 -0.009999233705352993 1.4801095140889595
+  position 4.084224243877764 27.525007265033043 9.341466493832838
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 100 100
+}
+Road {
+  wayPoints [
+    0 0 0
+    0 0 12
+  ]
+}

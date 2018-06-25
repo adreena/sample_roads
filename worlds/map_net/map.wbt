@@ -1,0 +1,443 @@
+#VRML_SIM R2018a utf8
+WorldInfo {
+  info [
+    "World generated using the Open Street Map to Webots importer"
+    "Author: David Mansolino <david.mansolino@epfl.ch>"
+  ]
+  northDirection 0 0 1
+  gpsCoordinateSystem "WGS84"
+  gpsReference 53.535799999999995 -113.49080000000001 0
+  lineScale 9
+}
+Viewpoint {
+  orientation 0.5660095802769877 0.5273064769449958 0.6337042168129583 3.9861150272684522
+  position -271.4942205505414 70.3202120386724 -208.73057399421512
+  near 3
+}
+TexturedBackground {
+}
+SumoInterface {
+  useNetconvert FALSE
+  networkFiles "/Users/kimiahs/dev/sample_roads/worlds/map_net"
+  sumoArguments "--max-num-vehicles=5"
+}
+TexturedBackgroundLight {
+}
+Floor {
+  translation 0 -0.02 0
+  size 2668 1744
+  texture [
+    "textures/grass.jpg"
+  ]
+}
+LaneSeparation {
+  translation 573 0 324
+  rotation 0 1 0 1.8325996938995748
+  name "dummy_2"
+  id "dummy_2"
+  length 15
+}
+LaneSeparation {
+  translation 57.800000000000004 0 146.79999999999998
+  rotation 0 1 0 3.27
+  id "dummy_1"
+  length 47
+  numberOfForwardLanes 2
+}
+Crossroad {
+  translation 577.292798 0.01 323.164166
+  name "crossroad(1)"
+  id "-105797"
+  shape [
+    4.898269 0 -9.415804
+    4.889678 0 -9.421184
+    4.879553 0 -9.421662
+    -5.218778 0 -6.169509
+    -5.228174 0 -6.163079
+    -5.232538 0 -6.152563
+    -2.67211 0 7.617101
+    -2.666765 0 7.627409
+    -2.656593 0 7.633009
+    1.283757 0 6.901621
+    9.755325 0 4.166741
+    9.764955 0 4.160003
+    9.769137 0 4.149019
+    10.227798 0 -2.835939
+    9.69982 0 -4.311211
+    4.898269 0 -9.415804
+  ]
+  connectedRoadIDs [
+    "-105815"
+    "-105831"
+    "-105842"
+  ]
+  texture [
+    "/Users/kimiahs/Desktop/Transparent.png"
+  ]
+}
+Crossroad {
+  translation -298.038612 0.01 -215.593508
+  name "crossroad(2)"
+  id "-105817"
+  shape [
+    -0.815629 0 -6.972215
+    -1.811901 0 -6.855466
+    -1.822544 0 -6.850822
+    -1.828813 0 -6.841049
+    -0.196646 0 7.07119
+    -0.191881 0 7.081974
+    -0.181869 0 7.0882
+    34.781653 0 9.106776
+    34.79317 0 9.103914
+    34.801038 0 9.095029
+    37.678226 0 2.713667
+    37.679873 0 2.703255
+    36.773578 0 -5.517228
+    36.77 0 -5.526623
+    36.762303 0 -5.533091
+    -0.815629 0 -6.972215
+  ]
+  connectedRoadIDs [
+    "-105803"
+    "-105848"
+    "-105870"
+  ]
+}
+LaneSeparation {
+  translation -298 0 -215
+  rotation 0 1 0 1.5707996938995747
+  name "road_s(2)"
+  id "dummy_3"
+  length 35
+  numberOfForwardLanes 2
+  newLaneLeft FALSE
+}
+Crossroad {
+  translation 58.0147 0 145.528044
+  name "crossroad(3)"
+  id "-105822"
+  shape [
+    -0.526972 0 -46.132984
+    -0.532232 0 -46.143525
+    -0.542513 0 -46.149276
+    -7.521499 0 -45.535892
+    -7.731722 0 -45.500727
+    -14.52547 0 -43.807546
+    -14.535548 0 -43.801465
+    -14.54046 0 -43.790769
+    -6.871868 0 1.7492
+    -6.866484 0 1.759822
+    -6.856016 0 1.765501
+    7.069054 0 0.262442
+    7.079739 0 0.257898
+    7.086099 0 0.248183
+    6.979411 0 -0.753808
+    -0.526972 0 -46.132984
+  ]
+  connectedRoadIDs [
+    "-105815"
+    "-105842"
+    "-105848"
+  ]
+  texture [
+    "/Users/kimiahs/Desktop/Transparent.png"
+  ]
+}
+Crossroad {
+  translation -248.267893 0.01 -42.796138
+  name "crossroad(4)"
+  id "-105844"
+  shape [
+    23.409745 0 -24.400189
+    23.39937 0 -24.405912
+    23.387577 0 -24.404759
+    -2.900603 0 -6.470339
+    -2.907794 0 -6.461508
+    -2.908998 0 -6.450182
+    0.947462 0 7.010187
+    0.953763 0 7.01994
+    0.96442 0 7.024549
+    1.933518 0 6.748474
+    31.783368 0 -12.583153
+    31.790874 0 -12.592049
+    31.792155 0 -12.603617
+    28.557013 0 -18.817742
+    28.265837 0 -19.351217
+    23.409745 0 -24.400189
+  ]
+  connectedRoadIDs [
+    "-105803"
+    "-105831"
+    "-105870"
+  ]
+}
+LaneSeparation {
+  translation -252.6 0 -41
+  rotation 0 1 0 2.094399693899575
+  name "roads_3"
+  id "dummy_4"
+  length 38
+}
+Road {
+  translation -222.431927 0.01 -64.673738
+  name "road(1)"
+  id "-105803"
+  startJunction "-105844"
+  endJunction "-105817"
+  numberOfForwardLanes 2
+  speedLimit 27.777778
+  wayPoints [
+    0.2 0 0.1
+    9 0 -7.2
+    19.700000000000003 0 -29.2
+    22.474733 0 -59.870841
+    17.3808 0 -89.216727
+    8 0 -114
+    -11 0 -134
+    -31 0 -144
+    -41 0 -145
+  ]
+  startingAngle [
+    -2.1
+  ]
+  endingAngle [
+    1.78
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 572.8 0 324.59999999999997
+  name "Connors Road NW"
+  id "-105815"
+  startJunction "-105797"
+  endJunction "-105822"
+  width 14
+  numberOfLanes 4
+  numberOfForwardLanes 4
+  speedLimit 27.777778
+  dashedLine [
+    TRUE
+    TRUE
+    TRUE
+  ]
+  wayPoints [
+    0.19999999999999998 0 -0.7000000000000001
+    -4 0 1.0999999999999999
+    -71 0 30.874438
+    -123.165927 0 85.268408
+    -145.669831 0 100.491791
+    -190.025373 0 110.271969
+    -232.23495 0 102.366676
+    -448.436084 0 -26.273444
+    -478.873626 0 -50.255865
+    -506.808485 0 -99.505914
+    -515 0 -178
+  ]
+  startingAngle [
+    1.3
+  ]
+  endingAngle [
+    3
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation -218.094653 0 -58.509398
+  name "Connors Road NW(1)"
+  id "-105831"
+  startJunction "-105844"
+  endJunction "-105797"
+  numberOfForwardLanes 2
+  speedLimit 16.666667
+  wayPoints [
+    0 0 1.4000000000000001
+    76.761788 0 -39.975088
+    123.467741 0 -36.310916
+    148.606154 0 -27.306234
+    173.541702 0 -10.171423
+    201.907198 0 50.562355
+    265.592904 0 275.009633
+    278.423888 0 310
+    298.38913 0 338
+    328.732055 0 365
+    519.21322 0 477
+    561 0 500
+    610 0 510
+    829 0 457
+    846.301278 0 447
+    858 0 421
+    853 0 393
+    836 0 376
+    824 0 376
+    806 0 382
+  ]
+  startingAngle [
+    -2.050797
+  ]
+  endingAngle [
+    1.3
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 54.1 0.01 99.89999999999999
+  name "Scona Road NW"
+  id "-105842"
+  startJunction "-105822"
+  endJunction "-105797"
+  numberOfForwardLanes 2
+  speedLimit 27.777778
+  wayPoints [
+    1.2 0 0.1
+    -10.783445 0 -122.514399
+    4.617967 0 -200.583787
+    53.384015 0 -274.831369
+    85.153658 0 -310.779941
+    112.099668 0 -332.312837
+    192.572449 0 -374.971963
+    248.460925 0 -390.968587
+    306.247461 0 -397.398593
+    364.298786 0 -394.080188
+    420.97413 0 -381.107162
+    491.64349 0 -349.463468
+    539.030563 0 -315.840536
+    592.184613 0 -259.627247
+    623.068468 0 -210.47489
+    650.614996 0 -138.252402
+    660.294553 0 -81.055313
+    658.041582 0 -3.82056
+    645.044917 0 52.712831
+    612 0 130
+    590 0 166
+    577 0 182
+    571 0 188
+    554 0 201.6
+    531.9 0 215.4
+  ]
+  startingAngle [
+    3
+  ]
+  endingAngle [
+    1.2999999999999998
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 47 0.01 100.69999999999999
+  name "Connors Road NW(2)"
+  id "-105848"
+  startJunction "-105822"
+  endJunction "-105817"
+  numberOfForwardLanes 2
+  speedLimit 16.666667
+  wayPoints [
+    -0.31 0 0.4
+    -0.51 0 -0.621458
+    -31 0 -178.585694
+    -42.933279 0 -235.461532
+    -80.347063 0 -278.40564
+    -117.378863 0 -302.506043
+    -171.650314 0 -318.723585
+    -236.663696 0 -322.387615
+    -310 0 -319.4
+  ]
+  startingAngle [
+    3
+  ]
+  endingAngle [
+    1.57
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation -299.050896 0.01 -215.474637
+  name "road(2)"
+  id "-105870"
+  startJunction "-105817"
+  endJunction "-105844"
+  width 14
+  numberOfLanes 4
+  numberOfForwardLanes 4
+  speedLimit 27.777778
+  dashedLine [
+    TRUE
+    TRUE
+    TRUE
+  ]
+  wayPoints [
+    1.0999999999999999 0 0.5
+    -8.909068 0 1.046183
+    -45.625589 0 16.018301
+    -72.64416 0 44.988041
+    -84.970472 0 82.599981
+    -80.326345 0 121.901372
+    -59.570621 0 157
+    -27 0 181
+    0 0 186
+    31 0 183
+    49 0 172.959425
+  ]
+  startingAngle [
+    1.57
+  ]
+  endingAngle [
+    -2.1
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
